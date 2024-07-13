@@ -1,0 +1,67 @@
+{
+  "name": "array-of-object-query",
+  "version": "1.0.0",
+  "description": "array-of-object-query is a simple JavaScript library that makes working with arrays of objects easier. It has some methods to help you filter, sort, group, and summarize data. Use this library to make handling complex data structures simple and efficient.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "array",
+    "object",
+    "array-of-object",
+    "query",
+    "custom array method",
+    "filter",
+    "sort",
+    "group",
+    "aggregate",
+    "JavaScript",
+    "utility",
+    "data manipulation",
+    "array manipulation",
+    "object manipulation",
+    "data query",
+    "data processing",
+    "array utilities",
+    "collection methods",
+    "array extensions",
+    "object utilities",
+    "data handling",
+    "data transformation",
+    "custom array methods",
+    "data enhancement",
+    "data filtering",
+    "data sorting",
+    "data grouping",
+    "data aggregation",
+    "data operations",
+    "array enhancement",
+    "array filtering",
+    "array sorting",
+    "array grouping",
+    "array aggregation",
+    "array operations"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fahim27/array-of-object-query"
+  },
+  "bugs": {
+    "url": "https://github.com/fahim27/array-of-object-query/issues"
+  },
+  "author": "Fahim Muntasir <fahimmbpi@gmail.com> (http://github.com/fahim27)",
+  "homepage": "https://github.com/fahim27/array-of-object-query",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "babel-loader": "^9.1.3",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-node-externals": "^3.0.0"
+  }  
+}
