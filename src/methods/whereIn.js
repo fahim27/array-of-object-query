@@ -8,7 +8,7 @@
  */
 export default function whereIn(key, values) {
   if (typeof key !== "string") {
-    throw new TypeError("The key must be a string");
+    throw new TypeError(`The key must be a string. The given key is the ${typeof key}`);
   }
   if (!Array.isArray(values)) {
     throw new TypeError("The values must be an array");

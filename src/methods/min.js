@@ -7,12 +7,12 @@
  */
 const min = function (key) {
   if (typeof key !== "string") {
-    throw new TypeError("The key must be a string");
+    throw new TypeError(
+      `The key must be a string. The given key is the ${typeof key}`
+    );
   }
 
-  if (this.length === 0) {
-    return undefined;
-  }
+  if (this.length === 0) return undefined;
 
   let minValue = this[0][key];
   for (let i = 1; i < this.length; i++) {

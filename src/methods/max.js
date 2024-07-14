@@ -10,9 +10,7 @@ const max = function (key) {
     throw new TypeError("The key must be a string");
   }
 
-  if (this.length === 0) {
-    return undefined;
-  }
+  if (this.length === 0) return undefined;
 
   let maxValue = this[0][key];
   for (let i = 1; i < this.length; i++) {

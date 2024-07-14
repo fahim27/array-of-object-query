@@ -9,7 +9,9 @@
 
 export default function (key, order = "asc") {
   if (typeof key !== "string") {
-    throw new TypeError("The key must be a string");
+    throw new TypeError(
+      `The key must be a string. The given key is the ${typeof key}`
+    );
   }
   if (!["asc", "desc"].includes(order)) {
     throw new TypeError('The order must be "asc" or "desc"');

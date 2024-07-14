@@ -7,12 +7,13 @@
  */
 const average = function (key) {
   if (typeof key !== "string") {
-    throw new TypeError("The key must be a string");
+    throw new TypeError(
+      `The key must be a string. The given key is the ${typeof key}`
+    );
   }
 
-  if (this.length === 0) {
-    return NaN;
-  }
+  if (this.length === 0) return NaN;
+
   const sum = this.reduce((total, currentObj) => {
     if (!(key in currentObj) || typeof currentObj[key] !== "number") {
       throw new TypeError(`Object does not have numeric property '${key}'`);

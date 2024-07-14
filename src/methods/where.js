@@ -9,7 +9,7 @@
 
 export default function where(key, value) {
   if (typeof key !== "string") {
-    throw new TypeError("The key must be a string");
+    throw new TypeError(`The key must be a string. The given key is the ${typeof key}`);
   }
   if (value === undefined) {
     throw new TypeError("The value must be defined");

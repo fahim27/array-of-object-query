@@ -1,6 +1,6 @@
 {
   "name": "array-of-object-query",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "array-of-object-query is a simple JavaScript library that makes working with arrays of objects easier. It has some methods to help you filter, sort, group, and summarize data. Use this library to make handling complex data structures simple and efficient.",
   "main": "dist/index.js",
   "scripts": {
